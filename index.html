@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+   <meta charset= "UTF-8">
+   <meta name="viewport" content="Width=device-Width,initial-scale=1.2">
+   <title>Pizza ordering form</title>
+    </head>
+    <body>
+        <header>
+            <h1>Pizza ordering form</h1>
+        </header>
+        <form action="submit_order.php" method="post">
+            <fieldset>
+
+                <legend>order Details</legend>
+                <label for="QOP">Quantity Of Pizzas:</label>
+                <input type="Quantity" id="QOP" name="QOP" min="1" required><br>
+
+                <label for="PS">Size of Pizza:</label>
+                <select id="PS" name="PS">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                </select>
+                <br>
+
+                <label for="PShape">Shape:</label>
+                <input type="radio" id="round" name="PShape" value="round" checked>
+                <label for="round">Round</label>
+                <input type="radio" id="square" name="PShape" value="square" checked>
+                <label for="square">Square</label><br>
+
+                <label for="toppings">Toppings</label>
+                <input type="text" id="toppings" name="toppings"><br>
+
+                <label for="crust_type">Crust type:</label>
+                <input type="radio" id="deep dish" name="crust_type" value="deep dish">
+                <label for="deep dish">Deep Dish:</label>
+                <input type="radio" id="thin crust" name="crust_type" value="thin crust" checked>
+                <label for="thin crust">Thin crust</label><br>
+
+                <label>Delivery option</label>
+                <input type="checkbox" id="take out" name="Delivery option" value="take out">
+                <label for="take out"> Take out</label><br>
+                <input type="checkbox" id="eat in" name="Delivery option" value="eat in">
+                <label for="eat in"> Eat in</label><br>
+                <input type="checkbox" id="delivery" name="Delivery option" value="delivery">
+                <label for="delivery"> Delivery</label><br>
+                </fieldset>
+                <fieldset>
+                 <legend>Contact Information</legend>   
+                 <label for="phone"> Phone</label>,<br>
+                 <input type="Tel" id="phone" name="phone" pattern="0-9" placeholder="447898301" required><br>
+                 
+                 <label for="email"> E-mail</label>
+                 <input tyoe="email" id="email" nmae="email" required><br>
+                </fieldset>
+
+                <fieldset>
+                <legend>Special Instruction</legend>
+                <textarea id="spec_int" name="spec_int" rows="4" cols="50"> </textarea><br>
+                </fieldset>
+
+                <input type="submit" value="Place Order">
+                <input type="reset" value="Reset">
+                </form>
+
+                <p>Here's an image of a delicious Pizza:</p>
+                <img src="images.jpg" alt="Delicious Pizza" height="160px" width="160px">
+            </main>
+            <footer>
+                <p>Copyright&copy; 2023 Pizzashop</p>
+             </footer>
+            </body>
+</html>
+                
+                
+                
+    
+
+                
+
+                
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+        
